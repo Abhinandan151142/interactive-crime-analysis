@@ -1,5 +1,7 @@
 import type { Crime, DashboardStats, MonthlyData, CrimeTypeData, DistrictData, Prediction, Alert, ModelMetrics } from '../types';
 import { getApiUrl } from '../config/api.config';
+const BASE_URL = "https://crime-pattern-analysis-and-prediction-szd8.onrender.com";
+
 
 // API will use environment variable VITE_API_URL when backend is ready
 
@@ -25,12 +27,16 @@ const generateMockCrimes = (count: number): Crime[] => {
 };
 
 export const api = {
-  async getCrimes(_filters?: any): Promise<Crime[]> {
-    // In production, replace with: fetch(`${BASE_URL}/crimes`, { ... })
-    return new Promise((resolve) => {
-      setTimeout(() => resolve(generateMockCrimes(100)), 500);
-    });
-  },
+ async getCrimes(): Promise<Crime[]> {
+  try {
+    const response = await fetch(`${BASE_URL}/api/crimes`);
+    return await response.json();
+  } catch (error) {
+    console.error("API failed, using mock data", error);
+    return generateMockCrimes(100);
+  }
+},
+  
 
   async getCrimeSummary(): Promise<DashboardStats> {
     return new Promise((resolve) => {
