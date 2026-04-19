@@ -6,9 +6,6 @@ A professional, production-ready crime analysis and prediction platform built wi
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-06B6D4?logo=tailwindcss)
 
-## 🚀 Live Demo  
-🔗 (https://interactive-crime-analysis.netlify.app/)
-
 ## ✨ Features
 
 ### 📊 Real-Time Dashboard
