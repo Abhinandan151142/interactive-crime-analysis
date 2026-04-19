@@ -2,10 +2,12 @@
 
 A professional, production-ready crime analysis and prediction platform built with React, TypeScript, and AI/ML visualization.
 
-![Tech Stack](https://img.shields.io/badge/React-18-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-4.0-06B6D4)
-![License](https://img.shields.io/badge/License-MIT-green)
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-06B6D4?logo=tailwindcss)
+
+## 🚀 Live Demo  
+🔗 https://crime-pattern-analysis-prediction-ai.netlify.app/
 
 ## ✨ Features
 
@@ -181,13 +183,6 @@ This is a portfolio/demo project, but suggestions are welcome!
 
 MIT License - feel free to use for your own projects!
 
-## 👨‍💻 Author
-
-**Your Name**
-- Portfolio: [yourportfolio.com](#)
-- LinkedIn: [linkedin.com/in/yourprofile](#)
-- GitHub: [@yourusername](#)
-
 ## 🙏 Acknowledgments
 
 - Leaflet.js for amazing map library
@@ -198,8 +193,7 @@ MIT License - feel free to use for your own projects!
 ## 📞 Contact
 
 For questions or feedback:
-- Email: your.email@example.com
-- Twitter: [@yourhandle](#)
+- Email: abhinandanguptaatlas@gmail.com
 
 ---
 
