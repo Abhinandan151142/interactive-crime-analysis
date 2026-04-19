@@ -7,7 +7,7 @@ A professional, production-ready crime analysis and prediction platform built wi
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-06B6D4?logo=tailwindcss)
 
 ## 🚀 Live Demo  
-🔗 https://crime-pattern-analysis-prediction-ai.netlify.app/
+🔗 (https://interactive-crime-analysis.netlify.app/)
 
 ## ✨ Features
 
