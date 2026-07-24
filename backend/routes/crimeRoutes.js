@@ -14,11 +14,11 @@ router.get('/recent', crimeController.getRecentCrimes);
 // Search crimes
 router.get('/search', crimeController.searchCrimes);
 
-// Get crimes by district
-router.get('/district/:name', crimeController.getCrimesByDistrict);
-
 // Get single crime by ID
 router.get('/:id', crimeController.getCrimeById);
+
+// Get crimes by district
+router.get('/district/:name', crimeController.getCrimesByDistrict);
 
 // Create new crime
 router.post('/', crimeController.createCrime);
